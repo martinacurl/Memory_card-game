@@ -1,0 +1,25 @@
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: rgba(31, 31, 31, 0.76);
+}
+
+button {
+  background: rgba(31, 31, 31, 0.233);
+  border: 2px solid rgb(0, 0, 0);
+  padding: 6px 12px;
+  border-radius: 1rem;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 20px;
+  justify-items: center;
+  align-items: center;
+}
