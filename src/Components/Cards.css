@@ -4,11 +4,12 @@
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
-  background-color: rgba(31, 31, 31, 0.76);
+  background-color: rgba(43, 43, 43, 0.76);
+  margin: 0;
 }
 
 button {
-  background: rgba(31, 31, 31, 0.233);
+  background: rgba(31, 31, 31, 0.267);
   border: 2px solid rgb(0, 0, 0);
   padding: 6px 12px;
   border-radius: 1rem;

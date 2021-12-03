@@ -1,7 +1,6 @@
 import React from "react";
 import { useEffect, useState } from "react";
 import SingleCard from "./SingleCard";
-import "./SingleCard.css";
 import "./Cards.css";
 
 const Cards = () => {
@@ -87,8 +86,9 @@ const Cards = () => {
   return (
     <div className="container">
       <div>
+        <h1>Memory Card Game</h1>
         <button onClick={shuffleCards}>New Game</button>
-        <p>Turns: {turns} </p>
+        <h3>Turns: {turns} </h3>
       </div>
       <div className="card-grid">
         {playCards.map((item, index) => (
